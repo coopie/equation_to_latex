@@ -21,7 +21,7 @@ def get_file(filename):
 # create png from latex
 def make_png(data,image,display):
 	if(display): print "Making image..."
-	command_line = "./tex2png -r* -lq \""+data+"\" " + image
+	command_line = "./pytex2png/tex2png -r* -lq \""+data+"\" " + image
 	exe_command(command_line,display)
 
 # remove white background
