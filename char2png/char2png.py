@@ -6,7 +6,7 @@ def main():
         characters = ["\\alpha", "\\beta"]
         for c in characters:
             stri = c.replace("\\", "")
-	    pytex2png.convert(c,"output/"+stri+".png")
+	    pytex2png.convert(c,"output/"+stri+".png", 784)
 
 
 if __name__ == "__main__":
